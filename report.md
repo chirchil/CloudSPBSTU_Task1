@@ -82,6 +82,7 @@ network:
 ```shell
 $ sudo netplan --debug generate
 ```
+
 ![](./screenshots/Screenshot_7.png)
 
 Применяю конфигурацию:
@@ -118,6 +119,7 @@ network:
 ```
 
 7. С сервера пропингуем шлюз и клиента:
+8. 
 ![](./screenshots/Screenshot_11.png)
 
 От шлюза ответ есть, а вот от клиента нема
