@@ -86,7 +86,7 @@ $ sudo netplan --debug generate
 
 Применяю конфигурацию:
 ```shell
-$ sudo netplan apple
+$ sudo netplan apply
 ```
 
 Теперь тоже самое для shibalov_gateway:
@@ -142,6 +142,7 @@ $  sudo vim /etc/sysctl.conf
 ![](./screenshots/Screenshot_16.png)
 
 Результат ```tcpdump```:
+![](./screenshots/Screenshot_17.png)
 
 10. Пора установить Flask:
 
@@ -217,9 +218,9 @@ $ sudo systemctl status web-server
 
 ![](./screenshots/Screenshot_35.png)
 
-18. Запустим старый добрый скрипт:
+18. Проверим подключение к серверу:
 
-![](./screenshots/Screenshot_36.png)
+![](./screenshots/Screenshot_50.png)
 
 Не можем достучаться до сервера из-за разницы портов, что было очевидно.
 
