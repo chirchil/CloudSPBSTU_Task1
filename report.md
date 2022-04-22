@@ -144,6 +144,7 @@ $  sudo vim /etc/sysctl.conf
 ![](./screenshots/Screenshot_16.png)
 
 Результат ```tcpdump```:
+
 ![](./screenshots/Screenshot_17.png)
 
 10. Пора установить Flask:
